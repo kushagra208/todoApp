@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "todoApp",
+    "slug": "todoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.kushprogrammer.todoApp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.kushprogrammer.todoApp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "21e50bc8-358f-44c7-b62c-d64d6f5e2db8"
+      }
+    }
+  }
+}
